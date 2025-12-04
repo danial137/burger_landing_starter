@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
+import { BiCycling } from 'react-icons/bi'
 import { FaBurger } from 'react-icons/fa6'
 
 const Nav = () => {
@@ -18,7 +19,27 @@ const Nav = () => {
                     <li className='text-[20px] font-medium hover:text-red-600'>
                         <Link href="/">Home</Link>
                     </li>
+                    <li className='text-[20px] font-medium hover:text-red-600'>
+                        <Link href="/">Shop</Link>
+                    </li>
+                    <li className='text-[20px] font-medium hover:text-red-600'>
+                        <Link href="/">Blog</Link>
+                    </li>
+                    <li className='text-[20px] font-medium hover:text-red-600'>
+                        <Link href="/">Contact</Link>
+                    </li>
                 </ul>
+                {/* button */}
+                <div className='flex items-center space-x-4'>
+                    <button className='px-6 py-2 sm:px-8 sm:py-3 text-[14px] sm:text-[16px] bg-blue-950 transition-all duration-200 hover:bg-red-600 flex items-center rounded-md space-x-2 text-white'>
+                        <span>
+                            <BiCycling className='w-[1.3rem] h-[1.3rem]' />
+                        </span>
+                        <span>
+                            Order Now
+                        </span>
+                    </button>
+                </div>
             </div>
         </div>
     )
