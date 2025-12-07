@@ -1,5 +1,7 @@
 import React from 'react'
 import img1 from "@/public/images/f1.jpg"
+import img2 from "@/public/images/f2.jpg"
+import img3 from "@/public/images/f3.jpg"
 import Image from 'next/image'
 
 const Features = () => {
@@ -15,7 +17,25 @@ const Features = () => {
                 {/* card1 */}
                 <div>
                     <div className='p-6 hover:bg-white rounded-lg transition-all duration-200'>
-                        <Image src={img1} alt='img'/>
+                        <Image src={img1} alt='img' className='rounded-md' />
+                        <h1 className='mt-[1.rem] text-center text-[24px] text-black font-semibold'>Our Burger </h1>
+                        <p className='mt-[0.2rem] text-black text-opacity-70 text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime sint, ducimus alias impedit recusandae dolorem nulla quibusdam. Itaque, dolor ipsam!</p>
+                    </div>
+                </div>
+                {/* card2 */}
+                <div>
+                    <div className='p-6 hover:bg-white rounded-lg transition-all duration-200'>
+                        <Image src={img2} alt='img' className='rounded-md' />
+                        <h1 className='mt-[1.rem] text-center text-[24px] text-black font-semibold'>Our Opiniion is important </h1>
+                        <p className='mt-[0.2rem] text-black text-opacity-70 text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime sint, ducimus alias impedit recusandae dolorem nulla quibusdam. Itaque, dolor ipsam!</p>
+                    </div>
+                </div>
+                {/* card3 */}
+                <div>
+                    <div className='p-6 hover:bg-white rounded-lg transition-all duration-200'>
+                        <Image src={img3} alt='img' className='rounded-md' />
+                        <h1 className='mt-[1.rem] text-center text-[24px] text-black font-semibold'>Our Burger </h1>
+                        <p className='mt-[0.2rem] text-black text-opacity-70 text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime sint, ducimus alias impedit recusandae dolorem nulla quibusdam. Itaque, dolor ipsam!</p>
                     </div>
                 </div>
             </div>
