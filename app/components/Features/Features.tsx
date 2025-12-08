@@ -10,7 +10,7 @@ const Features = () => {
             {/* heading */}
             <h1 className='heading'>
                 burgers made with <br /> love and
-                <span className='ml-5'>Care</span>
+                <span className='ml-5 text-red-600'>Care</span>
             </h1>
             {/* card */}
             <div className='w-[90%] md:w-[80%] mt-[3rem] md:mt-[5rem] mb-[3rem] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[3rem]'>
@@ -34,7 +34,7 @@ const Features = () => {
                 <div>
                     <div className='p-6 hover:bg-white rounded-lg transition-all duration-200'>
                         <Image src={img3} alt='img' className='rounded-md' />
-                        <h1 className='mt-[1.rem] text-center text-[24px] text-black font-semibold'>Our Burger </h1>
+                        <h1 className='mt-[1.rem] text-center text-[24px] text-black font-semibold'> Chicken fries  </h1>
                         <p className='mt-[0.2rem] text-black text-opacity-70 text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime sint, ducimus alias impedit recusandae dolorem nulla quibusdam. Itaque, dolor ipsam!</p>
                     </div>
                 </div>
