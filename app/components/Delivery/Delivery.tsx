@@ -22,11 +22,11 @@ const Delivery = () => {
                         <RiEBike2Fill className='w-[2rem] h-[2rem] text-red-600' />
                         <h1 className='text-[18px] text-black font-medium'>Delivery in 30 minutes</h1>
                     </div>
-                    <div className='flex items-center space-x-3 mt-[2rem]'>
+                    <div className='flex items-center space-x-3 mt-[1rem]'>
                         <IoFastFood className='w-[2rem] h-[2rem] text-red-600' />
                         <h1 className='text-[18px] text-black font-medium'>Free Shiping from 751</h1>
                     </div>
-                    <div className='flex items-center space-x-3 mt-[2rem]'>
+                    <div className='flex items-center space-x-3 mt-[1rem]'>
                         <BsDoorOpen className='w-[2rem] h-[2rem] text-red-600' />
                         <h1 className='text-[18px] text-black font-medium'>
                             Delivery on your door open
