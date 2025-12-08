@@ -30,7 +30,14 @@ const PopularBurger = () => {
             <div className='w-[80%] mt-[4rem] mx-auto'>
                 <Carousel additionalTransfrom={0} arrows={true} autoPlay={true} autoPlaySpeed={4000} centerMode={false} infinite responsive={responsive} itemClass='item' showDots={false}>
                     {/* burger card */}
-                    <BurgerCard />
+                    <BurgerCard title="Smokey Burger" image="/images/b1.png" review="6" price="10.88" />
+                    <BurgerCard title="Smokey Burger" image="/images/b2.png" review="6" price="10.88" />
+                    <BurgerCard title="Smokey Burger" image="/images/b3.png" review="6" price="10.88" />
+                    <BurgerCard title="Smokey Burger" image="/images/b4.png" review="6" price="10.88" />
+                    <BurgerCard title="Smokey Burger" image="/images/b5.png" review="6" price="10.88" />
+                    <BurgerCard title="Smokey Burger" image="/images/b6.png" review="6" price="10.88" />
+                    <BurgerCard title="Smokey Burger" image="/images/b7.png" review="6" price="10.88" />
+                    <BurgerCard title="Smokey Burger" image="/images/b8.png" review="6" price="10.88" />
                 </Carousel>
             </div>
         </div>
