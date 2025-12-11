@@ -1,5 +1,7 @@
 import React from 'react'
+import { BsFileEarmarkFill } from 'react-icons/bs'
 import { FaBurger } from 'react-icons/fa6'
+import { MdEmail } from 'react-icons/md'
 
 const Footer = () => {
   return (
@@ -12,9 +14,18 @@ const Footer = () => {
             <FaBurger className='w-[1.2rem] h-[1.2rem] sm:w-[1.4rem] sm:h-[1.4rem] text-orange-500' />
             <h1 className='text-[20px] sm:text-[30px] font-semibold'>BurgerBite</h1>
           </div>
-          <p className='text-white mt-[0.4rem] opacity-60 font-semibold'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quasi amet qui. Ducimus corrupti temporibus enim culpa repellat expedita maiores?</p>
+          <p className='text-white mt-[0.4rem] opacity-60 font-semibold'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quasi amet qui </p>
+          <div className='flex items-center text-white space-x-2 mt-[1.2rem]'>
+            <MdEmail className='w-4 h-4' /> <h1 className='font-semibold'>Danial79fakhrabadi@gmail.com</h1>
+          </div>
         </div>
       </div>
+      {/* 2st part */}
+
+      <div>
+        <h1></h1>
+      </div>
+
     </div>
   )
 }
