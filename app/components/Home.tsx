@@ -5,6 +5,7 @@ import PopularBurger from './PopularBurger/PopularBurger'
 import Delivery from './Delivery/Delivery'
 import Team from './Team/Team'
 import Reservition from './Reservition/Reservition'
+import Offer from './Offer/Offer'
 
 const Home = () => {
   return (
@@ -14,7 +15,8 @@ const Home = () => {
       <PopularBurger />
       <Delivery />
       <Team />
-      <Reservition/>
+      <Reservition />
+      <Offer />
     </div>
   )
 }
